@@ -1,0 +1,51 @@
+{
+  "dataset_url": "https://archive.ics.uci.edu/static/public/350/default+of+credit+card+clients.zip",
+  "random_state": 42,
+  "train_rows": 24000,
+  "test_rows": 6000,
+  "default_rate": 0.2212,
+  "sklearn_version": "1.7.2",
+  "test_sha256": "ed42d4f0908cb85a20027ab7a93cc5b3dbbc9109fd38b95a70de62f9d45757f7",
+  "metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.8076666666666666,
+      "AUC": 0.7076355036089734,
+      "Precision": 0.6868250539956804,
+      "Recall": 0.23963828183873398,
+      "F1": 0.3553072625698324,
+      "MCC": 0.32444311464457076
+    },
+    "Decision Tree": {
+      "Accuracy": 0.8168333333333333,
+      "AUC": 0.7492754880568212,
+      "Precision": 0.668141592920354,
+      "Recall": 0.3413715146948003,
+      "F1": 0.45187032418952616,
+      "MCC": 0.38439565647644197
+    },
+    "KNN": {
+      "Accuracy": 0.8078333333333333,
+      "AUC": 0.7434691523448127,
+      "Precision": 0.6260869565217392,
+      "Recall": 0.3255463451394122,
+      "F1": 0.4283589489340605,
+      "MCC": 0.3516938081842688
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.7525,
+      "AUC": 0.7249303386463403,
+      "Precision": 0.4514742014742015,
+      "Recall": 0.5538809344385832,
+      "F1": 0.49746192893401014,
+      "MCC": 0.33862043928395225
+    },
+    "Support Vector Machine": {
+      "Accuracy": 0.816,
+      "AUC": 0.7210002110925677,
+      "Precision": 0.6651851851851852,
+      "Recall": 0.3383571966842502,
+      "F1": 0.4485514485514486,
+      "MCC": 0.3809000785774937
+    }
+  }
+}
